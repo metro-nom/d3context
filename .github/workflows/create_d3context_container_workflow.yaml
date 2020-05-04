@@ -1,0 +1,48 @@
+name: Build 'd3context' docker image
+on: [push]
+jobs:
+  build:
+    name: Building docker image 'd3context' for docker.com
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+      - name: Define variables
+        run: |
+          # Hard coded variable
+          echo "./Dockerfile" > DOCKERFILE_NAME
+          #
+          # Logically defined variable from the Dockerfile
+          cat $(cat DOCKERFILE_NAME) | grep DOCKERHUB_USER= | head -n 1 | grep -o '".*"' | sed 's/"//g' > DOCKERHUB_USER
+          cat $(cat DOCKERFILE_NAME) | grep APP_NAME= | head -n 1 | grep -o '".*"' | sed 's/"//g' > APP_NAME
+          cat $(cat DOCKERFILE_NAME) | grep VERSION= | head -n 1 | grep -o '".*"' | sed 's/"//g' > VERSION
+          echo "$(cat DOCKERHUB_USER)/$(cat APP_NAME)" > DKR_HUB_URL
+          #
+          # stable tags are logically defined
+          echo "$(cat DKR_HUB_URL):$(cat VERSION)" > TAG_VERSION
+      - name: Build
+        run: |
+          # for Docker hub
+          docker build --file $(cat DOCKERFILE_NAME) --tag $(cat TAG_VERSION) ./dockers/py38slim
+      - name: Logs / All tags & variables
+        run: |
+          echo "Check out https://hub.docker.com/r/$(cat DOCKERHUB_USER)/$(cat APP_NAME)/tags"
+          echo " "
+          echo "$(cat TAG_VERSION) < TAG_VERSION"
+          echo " "
+          echo "$(cat APP_NAME) < APP_NAME"
+          echo "$(cat VERSION) < VERSION"
+          echo "$(cat DOCKERFILE_NAME) < DOCKERFILE_NAME"
+          echo " "
+          echo "$(cat DOCKERHUB_USER) < DOCKERHUB_USER"
+          echo "$(cat DKR_HUB_URL) < DKR_HUB_URL"
+      - name: Logs / docker (inspect, history, version, info), uname
+        run: |
+          docker inspect $(cat TAG_VERSION)
+          docker history $(cat TAG_VERSION) --no-trunc
+          docker version
+          docker info
+          uname -a
+      - name: Publish on Docker hub
+        run: |
+          echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login --username $(cat DOCKERHUB_USER) --password-stdin
+          docker push $(cat TAG_VERSION)
