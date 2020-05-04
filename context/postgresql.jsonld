@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/postgresql/scope",
+    "name": "http://localhost:8811/postgresql/name",
+    "long_desc": "http://localhost:8811/postgresql/long_desc",
+    "mem_size": "http://localhost:8811/postgresql/mem_size",
+    "created": "http://localhost:8811/postgresql/created",
+    "modified": "http://localhost:8811/postgresql/modified",
+    "expire": "http://localhost:8811/postgresql/expire",
+    "cached": "http://localhost:8811/postgresql/cached",
+    "nom_type": "http://localhost:8811/postgresql/nom_type",
+    "origin": "http://localhost:8811/postgresql/origin",
+    "validNotBefore": "http://localhost:8811/postgresql/validNotBefore",
+    "validNotAfter": "http://localhost:8811/postgresql/validNotAfter",
+    "description": "http://localhost:8811/postgresql/description",
+    "aspect": "http://localhost:8811/postgresql/aspect",
+    "tags": "http://localhost:8811/postgresql/tags",
+    "publisher": "http://localhost:8811/postgresql/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/postgresql/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/postgresql/prop_id",
+    "prop_val": "http://localhost:8811/postgresql/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

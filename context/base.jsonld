@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/base/scope",
+    "name": "http://localhost:8811/base/name",
+    "long_desc": "http://localhost:8811/base/long_desc",
+    "created": "http://localhost:8811/base/created",
+    "modified": "http://localhost:8811/base/modified",
+    "expire": "http://localhost:8811/base/expire",
+    "cached": "http://localhost:8811/base/cached",
+    "nom_type": "http://localhost:8811/base/nom_type",
+    "validNotBefore": "http://localhost:8811/base/validNotBefore",
+    "validNotAfter": "http://localhost:8811/base/validNotAfter",
+    "description": "http://localhost:8811/base/description",
+    "aspect": "http://localhost:8811/base/aspect",
+    "tags": "http://localhost:8811/base/tags",
+    "publisher": {
+        "@id": "http://localhost:8811/base/publisher",
+        "@container": "@set"
+    }
+  }
+}

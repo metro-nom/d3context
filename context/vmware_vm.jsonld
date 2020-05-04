@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/vmware_vm/scope",
+    "name": "http://localhost:8811/vmware_vm/name",
+    "long_desc": "http://localhost:8811/vmware_vm/long_desc",
+    "created": "http://localhost:8811/vmware_vm/created",
+    "modified": "http://localhost:8811/vmware_vm/modified",
+    "expire": "http://localhost:8811/vmware_vm/expire",
+    "cached": "http://localhost:8811/vmware_vm/cached",
+    "nom_type": "http://localhost:8811/vmware_vm/nom_type",
+    "origin": "http://localhost:8811/vmware_vm/origin",
+    "validNotBefore": "http://localhost:8811/vmware_vm/validNotBefore",
+    "validNotAfter": "http://localhost:8811/vmware_vm/validNotAfter",
+    "description": "http://localhost:8811/vmware_vm/description",
+    "aspect": "http://localhost:8811/vmware_vm/aspect",
+    "guest_os": "http://localhost:8811/vmware_vm/guest_os",
+    "guest_ip": "http://localhost:8811/vmware_vm/guest_ip",
+    "vCPUs": "http://localhost:8811/vmware_vm/vCPUs",
+    "vMem": "http://localhost:8811/vmware_vm/vMem",
+    "host_fqdn": "http://localhost:8811/vmware_vm/host_fqdn",
+    "vcenter_fqdn": "http://localhost:8811/vmware_vm/vcenter_fqdn",
+    "power_state": "http://localhost:8811/vmware_vm/power_state",
+    "uptime": "http://localhost:8811/vmware_vm/uptime",
+    "uptime_formatted": "http://localhost:8811/vmware_vm/uptime_formatted",
+    "tags": "http://localhost:8811/vmware_vm/tags",
+    "publisher": "http://localhost:8811/vmware_vm/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/vmware_vm/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/vmware_vm/prop_id",
+    "prop_val": "http://localhost:8811/vmware_vm/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/iot_device/scope",
+    "name": "http://localhost:8811/iot_device/name",
+    "long_desc": "http://localhost:8811/iot_device/long_desc",
+    "created": "http://localhost:8811/iot_device/created",
+    "modified": "http://localhost:8811/iot_device/modified",
+    "expire": "http://localhost:8811/iot_device/expire",
+    "cached": "http://localhost:8811/iot_device/cached",
+    "nom_type": "http://localhost:8811/iot_device/nom_type",
+    "origin": "http://localhost:8811/iot_device/origin",
+    "validNotBefore": "http://localhost:8811/iot_device/validNotBefore",
+    "validNotAfter": "http://localhost:8811/iot_device/validNotAfter",
+    "description": "http://localhost:8811/iot_device/description",
+    "aspect": "http://localhost:8811/iot_device/aspect",
+    "tags": "http://localhost:8811/iot_device/tags",
+    "publisher": "http://localhost:8811/iot_device/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/iot_device/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/iot_device/prop_id",
+    "prop_val": "http://localhost:8811/iot_device/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

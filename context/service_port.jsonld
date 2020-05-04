@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "type": "http://localhost:8811/service_port/type",
+    "nodePort": "http://localhost:8811/service_port/nodePort",
+    "port": "http://localhost:8811/service_port/port",
+    "targetPort": "http://localhost:8811/service_port/targetPort"
+  }
+}

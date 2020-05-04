@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/sosm_host/scope",
+    "name": "http://localhost:8811/sosm_host/name",
+    "long_desc": "http://localhost:8811/sosm_host/long_desc",
+    "created": "http://localhost:8811/sosm_host/created",
+    "modified": "http://localhost:8811/sosm_host/modified",
+    "expire": "http://localhost:8811/sosm_host/expire",
+    "cached": "http://localhost:8811/sosm_host/cached",
+    "nom_type": "http://localhost:8811/sosm_host/nom_type",
+    "origin": "http://localhost:8811/sosm_host/origin",
+    "hostname": "http://localhost:8811/sosm_host/hostname",
+    "fqdn": "http://localhost:8811/sosm_host/fqdn",
+    "architecture": "http://localhost:8811/sosm_host/architecture",
+    "kernel": "http://localhost:8811/sosm_host/kernel",
+    "memtotal": "http://localhost:8811/sosm_host/memtotal",
+    "memtotal_readable": "http://localhost:8811/sosm_host/memtotal_readable",
+    "processor_count": "http://localhost:8811/sosm_host/processor_count",
+    "distribution": "http://localhost:8811/sosm_host/distribution",
+    "distribution_release": "http://localhost:8811/sosm_host/distribution_release",
+    "distribution_version": "http://localhost:8811/sosm_host/distribution_version",
+    "vm_cluster": "http://localhost:8811/sosm_host/vm_cluster",
+    "vm_datacenter": "http://localhost:8811/sosm_host/vm_datacenter",
+    "vm_host": "http://localhost:8811/sosm_host/vm_host",
+    "vm_uuid": "http://localhost:8811/sosm_host/vm_uuid",
+    "vm_vcenter": "http://localhost:8811/sosm_host/vm_vcenter",
+    "IPv4": {
+        "@id": "http://localhost:8811/sosm_host/ip_v4",
+        "@container": "@set"
+    },
+    "IPv6": {
+        "@id": "http://localhost:8811/sosm_host/ip_v6",
+        "@container": "@set"
+    },
+    "validNotBefore": "http://localhost:8811/sosm_host/validNotBefore",
+    "validNotAfter": "http://localhost:8811/sosm_host/validNotAfter",
+    "description": "http://localhost:8811/sosm_host/description",
+    "aspect": "http://localhost:8811/sosm_host/aspect",
+    "tags": "http://localhost:8811/sosm_host/tags",
+    "publisher": "http://localhost:8811/sosm_host/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/sosm_host/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/sosm_host/prop_id",
+    "prop_val": "http://localhost:8811/sosm_host/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

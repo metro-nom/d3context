@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/dc_datacenter/scope",
+    "name": "http://localhost:8811/dc_datacenter/name",
+    "gmap": "http://localhost:8811/dc_datacenter/gmap",
+    "street": "http://localhost:8811/dc_datacenter/street",
+    "zip": "http://localhost:8811/dc_datacenter/zip",
+    "city": "http://localhost:8811/dc_datacenter/city",
+    "country": "http://localhost:8811/dc_datacenter/country",
+    "long_desc": "http://localhost:8811/dc_datacenter/long_desc",
+    "created": "http://localhost:8811/dc_datacenter/created",
+    "modified": "http://localhost:8811/dc_datacenter/modified",
+    "expire": "http://localhost:8811/dc_datacenter/expire",
+    "cached": "http://localhost:8811/dc_datacenter/cached",
+    "nom_type": "http://localhost:8811/dc_datacenter/nom_type",
+    "origin": "http://localhost:8811/dc_datacenter/origin",
+    "validNotBefore": "http://localhost:8811/dc_datacenter/validNotBefore",
+    "validNotAfter": "http://localhost:8811/dc_datacenter/validNotAfter",
+    "description": "http://localhost:8811/dc_datacenter/description",
+    "aspect": "http://localhost:8811/dc_datacenter/aspect",
+    "tags": "http://localhost:8811/dc_datacenter/tags",
+    "publisher": "http://localhost:8811/dc_datacenter/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/dc_datacenter/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/dc_datacenter/prop_id",
+    "prop_val": "http://localhost:8811/dc_datacenter/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

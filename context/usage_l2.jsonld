@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/usage_l2/scope",
+    "created": "http://localhost:8811/usage_l2/created",
+    "modified": "http://localhost:8811/usage_l2/modified",
+    "expire": "http://localhost:8811/usage_l2/expire",
+    "cached": "http://localhost:8811/usage_l2/cached",
+    "nom_type": "http://localhost:8811/usage_l2/nom_type",
+    "validNotBefore": "http://localhost:8811/usage_l2/validNotBefore",
+    "validNotAfter": "http://localhost:8811/usage_l2/validNotAfter",
+    "cpu_usage_24h": "http://localhost:8811/usage_l2/cpu_usage_24h",
+    "network_usage_24h": "http://localhost:8811/usage_l2/network_usage_24h"
+  }
+}

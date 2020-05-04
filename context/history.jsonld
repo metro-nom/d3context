@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "created": "http://localhost:8811/history/created",
+    "modified": "http://localhost:8811/history/modified",
+    "expire": "http://localhost:8811/history/expire",
+    "cached": "http://localhost:8811/history/cached",
+    "nom_type": "http://localhost:8811/history/nom_type",
+    "validNotBefore": "http://localhost:8811/history/validNotBefore",
+    "validNotAfter": "http://localhost:8811/history/validNotAfter",
+    "description": "http://localhost:8811/history/description",
+    "tags": "http://localhost:8811/history/tags",
+    "publisher": "http://localhost:8811/history/publisher"
+  }
+}

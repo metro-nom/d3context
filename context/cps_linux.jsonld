@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/cps_linux/scope",
+    "name": "http://localhost:8811/cps_linux/name",
+    "long_desc": "http://localhost:8811/cps_linux/long_desc",
+    "created": "http://localhost:8811/cps_linux/created",
+    "modified": "http://localhost:8811/cps_linux/modified",
+    "expire": "http://localhost:8811/cps_linux/expire",
+    "cached": "http://localhost:8811/cps_linux/cached",
+    "nom_type": "http://localhost:8811/cps_linux/nom_type",
+    "origin": "http://localhost:8811/cps_linux/origin",
+    "hostname": "http://localhost:8811/cps_linux/hostname",
+    "validNotBefore": "http://localhost:8811/cps_linux/validNotBefore",
+    "validNotAfter": "http://localhost:8811/cps_linux/validNotAfter",
+    "description": "http://localhost:8811/cps_linux/description",
+    "guest_os": "http://localhost:8811/cps_linux/guest_os",
+    "aspect": "http://localhost:8811/cps_linux/aspect",
+    "tags": "http://localhost:8811/cps_linux/tags",
+    "publisher": "http://localhost:8811/cps_linux/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/cps_linux/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/cps_linux/prop_id",
+    "prop_val": "http://localhost:8811/cps_linux/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/dc_room/scope",
+    "name": "http://localhost:8811/dc_room/name",
+    "room_nr": "http://localhost:8811/dc_room/room_nr",
+    "long_desc": "http://localhost:8811/dc_room/long_desc",
+    "dctrack_id": "http://localhost:8811/dc_room/dctrack_id",
+    "created": "http://localhost:8811/dc_room/created",
+    "modified": "http://localhost:8811/dc_room/modified",
+    "expire": "http://localhost:8811/dc_room/expire",
+    "cached": "http://localhost:8811/dc_room/cached",
+    "nom_type": "http://localhost:8811/dc_room/nom_type",
+    "origin": "http://localhost:8811/dc_room/origin",
+    "validNotBefore": "http://localhost:8811/dc_room/validNotBefore",
+    "validNotAfter": "http://localhost:8811/dc_room/validNotAfter",
+    "description": "http://localhost:8811/dc_room/description",
+    "aspect": "http://localhost:8811/dc_room/aspect",
+    "tags": "http://localhost:8811/dc_room/tags",
+    "publisher": "http://localhost:8811/dc_room/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/dc_room/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/dc_room/prop_id",
+    "prop_val": "http://localhost:8811/dc_room/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

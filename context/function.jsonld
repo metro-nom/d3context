@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/function/scope",
+    "name": "http://localhost:8811/function/name",
+    "long_desc": "http://localhost:8811/function/long_desc",
+    "created": "http://localhost:8811/function/created",
+    "modified": "http://localhost:8811/function/modified",
+    "expire": "http://localhost:8811/function/expire",
+    "cached": "http://localhost:8811/function/cached",
+    "nom_type": "http://localhost:8811/function/nom_type",
+    "consumer": {
+        "@id": "http://localhost:8811/function/consumer",
+        "@container": "@set"
+    },
+    "validNotBefore": "http://localhost:8811/function/validNotBefore",
+    "validNotAfter": "http://localhost:8811/function/validNotAfter",
+    "description": "http://localhost:8811/function/description",
+    "aspect": "http://localhost:8811/function/aspect",
+    "isPartOf": "http://localhost:8811/function/isPartOf",
+    "hasPart": {
+        "@id": "http://localhost:8811/function/hasPart",
+        "@container": "@set"
+    },
+    "nom_ns": "http://localhost:8811/function/nom_ns",
+    "nom_state": "http://localhost:8811/function/nom_state",
+    "providesFunction": "http://localhost:8811/function/providesFunction",
+    "implementedBy": {
+        "@id": "http://localhost:8811/function/implementedBy",
+        "@container": "@set"
+    },
+    "usedBy": "http://localhost:8811/function/usedBy",
+    "tags": "http://localhost:8811/function/tags"
+  }
+}

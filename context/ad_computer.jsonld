@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/ad_computer/scope",
+    "name": "http://localhost:8811/ad_computer/name",
+    "long_desc": "http://localhost:8811/ad_computer/long_desc",
+    "created": "http://localhost:8811/ad_computer/created",
+    "modified": "http://localhost:8811/ad_computer/modified",
+    "expire": "http://localhost:8811/ad_computer/expire",
+    "cached": "http://localhost:8811/ad_computer/cached",
+    "nom_type": "http://localhost:8811/ad_computer/nom_type",
+    "origin": "http://localhost:8811/ad_computer/origin",
+    "validNotBefore": "http://localhost:8811/ad_computer/validNotBefore",
+    "validNotAfter": "http://localhost:8811/ad_computer/validNotAfter",
+    "description": "http://localhost:8811/ad_computer/description",
+    "aspect": "http://localhost:8811/ad_computer/aspect",
+    "tags": "http://localhost:8811/ad_computer/tags",
+    "publisher": "http://localhost:8811/ad_computer/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/ad_computer/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/ad_computer/prop_id",
+    "prop_val": "http://localhost:8811/ad_computer/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

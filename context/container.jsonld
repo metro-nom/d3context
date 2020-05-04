@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "created": "http://localhost:8811/container/created",
+    "modified": "http://localhost:8811/container/modified",
+    "expire": "http://localhost:8811/container/expire",
+    "cached": "http://localhost:8811/container/cached",
+    "nom_type": "http://localhost:8811/container/nom_type",
+    "validNotBefore": "http://localhost:8811/container/validNotBefore",
+    "validNotAfter": "http://localhost:8811/container/validNotAfter",
+    "deployment_name": "http://localhost:8811/container/deployment_name",
+    "docker_image_name": "http://localhost:8811/container/docker_image_name",
+    "docker_image_uri": "http://localhost:8811/container/docker_image_uri",
+    "container_port": "http://localhost:8811/container/container_port",
+    "container_envs": "http://localhost:8811/container/container_envs",
+    "service_port": "http://localhost:8811/container/service_port",
+    "prop_id": "http://localhost:8811/prop_id",
+    "prop_val": "http://localhost:8811/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

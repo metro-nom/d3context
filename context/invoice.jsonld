@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/invoice/scope",
+    "name": "http://localhost:8811/invoice/name",
+    "customer": "http://localhost:8811/invoice/customer",
+    "cost_center": "http://localhost:8811/invoice/cost_center",
+    "psp": "http://localhost:8811/invoice/psp",
+    "psc": "http://localhost:8811/invoice/psc",
+    "collect_id": "http://localhost:8811/invoice/collect_id",
+    "long_desc": "http://localhost:8811/invoice/long_desc",
+    "created": "http://localhost:8811/invoice/created",
+    "modified": "http://localhost:8811/invoice/modified",
+    "expire": "http://localhost:8811/invoice/expire",
+    "cached": "http://localhost:8811/invoice/cached",
+    "nom_type": "http://localhost:8811/invoice/nom_type",
+    "origin": "http://localhost:8811/invoice/origin",
+    "validNotBefore": "http://localhost:8811/invoice/validNotBefore",
+    "validNotAfter": "http://localhost:8811/invoice/validNotAfter",
+    "description": "http://localhost:8811/invoice/description",
+    "aspect": "http://localhost:8811/invoice/aspect",
+    "tags": "http://localhost:8811/invoice/tags",
+    "publisher": "http://localhost:8811/invoice/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/invoice/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/invoice/prop_id",
+    "prop_val": "http://localhost:8811/invoice/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

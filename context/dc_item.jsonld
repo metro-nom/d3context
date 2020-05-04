@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/dc_item/scope",
+    "name": "http://localhost:8811/dc_item/name",
+    "long_desc": "http://localhost:8811/dc_item/long_desc",
+    "created": "http://localhost:8811/dc_item/created",
+    "modified": "http://localhost:8811/dc_item/modified",
+    "expire": "http://localhost:8811/dc_item/expire",
+    "cached": "http://localhost:8811/dc_item/cached",
+    "nom_type": "http://localhost:8811/dc_item/nom_type",
+    "origin": "http://localhost:8811/dc_item/origin",
+    "validNotBefore": "http://localhost:8811/dc_item/validNotBefore",
+    "validNotAfter": "http://localhost:8811/dc_item/validNotAfter",
+    "description": "http://localhost:8811/dc_item/description",
+    "serialnumber": "http://localhost:8811/dc_item/serialnumber",
+    "item_type": "http://localhost:8811/dc_item/item_type",
+    "aspect": "http://localhost:8811/dc_item/aspect",
+    "tags": "http://localhost:8811/dc_item/tags",
+    "publisher": "http://localhost:8811/dc_item/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/dc_item/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/dc_item/prop_id",
+    "prop_val": "http://localhost:8811/dc_item/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

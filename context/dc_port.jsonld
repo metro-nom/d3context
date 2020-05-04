@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/dc_port/scope",
+    "name": "http://localhost:8811/dc_port/name",
+    "fabric_name": "http://localhost:8811/dc_port/fabric_name",
+    "switch_name": "http://localhost:8811/dc_port/switch_name",
+    "oper_status": "http://localhost:8811/dc_port/oper_status",
+    "admin_status": "http://localhost:8811/dc_port/admin_status",
+    "speed": "http://localhost:8811/dc_port/speed",
+    "speed_readable": "http://localhost:8811/dc_port/speed_readable",
+    "alias": "http://localhost:8811/dc_port/alias",
+    "cdp_neighbor": "http://localhost:8811/dc_port/cdp_neighbor",
+    "lldp_neighbor": "http://localhost:8811/dc_port/lldp_neighbor",
+    "long_desc": "http://localhost:8811/dc_port/long_desc",
+    "created": "http://localhost:8811/dc_port/created",
+    "modified": "http://localhost:8811/dc_port/modified",
+    "expire": "http://localhost:8811/dc_port/expire",
+    "cached": "http://localhost:8811/dc_port/cached",
+    "nom_type": "http://localhost:8811/dc_port/nom_type",
+    "origin": "http://localhost:8811/dc_port/origin",
+    "validNotBefore": "http://localhost:8811/dc_port/validNotBefore",
+    "validNotAfter": "http://localhost:8811/dc_port/validNotAfter",
+    "description": "http://localhost:8811/dc_port/description",
+    "aspect": "http://localhost:8811/dc_port/aspect",
+    "tags": "http://localhost:8811/dc_port/tags",
+    "publisher": "http://localhost:8811/dc_port/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/dc_port/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/dc_port/prop_id",
+    "prop_val": "http://localhost:8811/dc_port/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

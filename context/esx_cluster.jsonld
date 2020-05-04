@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/esx_cluster/scope",
+    "name": "http://localhost:8811/esx_cluster/name",
+    "num_hosts": "http://localhost:8811/esx_cluster/num_hosts",
+    "num_cpu_cores": "http://localhost:8811/esx_cluster/num_cpu_cores",
+    "cnt_vm_off": "http://localhost:8811/esx_cluster/cnt_vm_off",
+    "cnt_vm_total": "http://localhost:8811/esx_cluster/cnt_vm_total",
+    "long_desc": "http://localhost:8811/esx_cluster/long_desc",
+    "created": "http://localhost:8811/esx_cluster/created",
+    "modified": "http://localhost:8811/esx_cluster/modified",
+    "expire": "http://localhost:8811/esx_cluster/expire",
+    "cached": "http://localhost:8811/esx_cluster/cached",
+    "nom_type": "http://localhost:8811/esx_cluster/nom_type",
+    "origin": "http://localhost:8811/esx_cluster/origin",
+    "validNotBefore": "http://localhost:8811/esx_cluster/validNotBefore",
+    "validNotAfter": "http://localhost:8811/esx_cluster/validNotAfter",
+    "description": "http://localhost:8811/esx_cluster/description",
+    "aspect": "http://localhost:8811/esx_cluster/aspect",
+    "tags": "http://localhost:8811/esx_cluster/tags",
+    "publisher": "http://localhost:8811/esx_cluster/publisher",
+    "hosts": {
+        "@id": "http://localhost:8811/esx_cluster/hosts",
+        "@container": "@set"
+    },
+    "properties": {
+        "@id": "http://localhost:8811/esx_cluster/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/esx_cluster/prop_id",
+    "prop_val": "http://localhost:8811/esx_cluster/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

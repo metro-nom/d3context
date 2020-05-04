@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/dc_switch/scope",
+    "name": "http://localhost:8811/dc_switch/name",
+    "model": "http://localhost:8811/dc_switch/model",
+    "ip_address": "http://localhost:8811/dc_switch/ip_address",
+    "long_desc": "http://localhost:8811/dc_switch/long_desc",
+    "created": "http://localhost:8811/dc_switch/created",
+    "modified": "http://localhost:8811/dc_switch/modified",
+    "expire": "http://localhost:8811/dc_switch/expire",
+    "cached": "http://localhost:8811/dc_switch/cached",
+    "nom_type": "http://localhost:8811/dc_switch/nom_type",
+    "origin": "http://localhost:8811/dc_switch/origin",
+    "validNotBefore": "http://localhost:8811/dc_switch/validNotBefore",
+    "validNotAfter": "http://localhost:8811/dc_switch/validNotAfter",
+    "description": "http://localhost:8811/dc_switch/description",
+    "aspect": "http://localhost:8811/dc_switch/aspect",
+    "tags": "http://localhost:8811/dc_switch/tags",
+    "publisher": "http://localhost:8811/dc_switch/publisher",
+    "properties": {
+        "@id": "http://localhost:8811/dc_switch/properties",
+        "@container": "@set"
+    },
+    "prop_id": "http://localhost:8811/dc_switch/prop_id",
+    "prop_val": "http://localhost:8811/dc_switch/prop_val",
+    "prop_validity": "http://localhost:8811/prop_validity"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "http://localhost:8811/user/scope",
+    "name": "http://localhost:8811/user/name",
+    "long_desc": "http://localhost:8811/user/long_desc",
+    "created": "http://localhost:8811/user/created",
+    "modified": "http://localhost:8811/user/modified",
+    "expire": "http://localhost:8811/user/expire",
+    "cached": "http://localhost:8811/user/cached",
+    "nom_type": "http://localhost:8811/user/nom_type",
+    "validNotBefore": "http://localhost:8811/user/validNotBefore",
+    "validNotAfter": "http://localhost:8811/user/validNotAfter",
+    "description": "http://localhost:8811/user/description",
+    "aspect": "http://localhost:8811/user/aspect",
+    "isPartOf": "http://localhost:8811/user/isPartOf",
+    "url": "http://localhost:8811/user/url",
+    "dst": "http://localhost:8811/user/dst",
+    "nom_ns": "http://localhost:8811/user/nom_ns",
+    "nom_state": "http://localhost:8811/user/nom_state",
+    "usesFunction": "http://localhost:8811/user/usesFunction",
+    "tags": "http://localhost:8811/user/tags",
+    "publisher": "http://localhost:8811/user/publisher"
+  }
+}
