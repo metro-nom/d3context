@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           # for Docker hub
-          docker build --file $(cat DOCKERFILE_NAME) --tag $(cat TAG_VERSION) ./dockers/py38slim
+          docker build --file $(cat DOCKERFILE_NAME) --tag $(cat TAG_VERSION) .
       - name: Logs / All tags & variables
         run: |
           echo "Check out https://hub.docker.com/r/$(cat DOCKERHUB_USER)/$(cat APP_NAME)/tags"
